@@ -40,17 +40,28 @@ CRUD para Endtidades:
 
 Author:
 GET /api/authors/ - Lista todos os autores.
+
 POST /api/authors/ - Cria um novo autor.
+
 GET /api/authors/{id}/ - Recupera um autor específico.
+
 PUT /api/authors/{id}/ - Atualiza um autor específico.
+
 DELETE /api/authors/{id}/ - Deleta um autor específico.
 
+
 Book:
+
 GET /api/books/ - Lista todos os livros.
+
 POST /api/books/ - Cria um novo livro.
+
 GET /api/books/{id}/ - Recupera um livro específico.
+
 PUT /api/books/{id}/ - Atualiza um livro específico.
+
 DELETE /api/books/{id}/ - Deleta um livro específico.
 
 Piada do Chuck Norris:
+
 GET /api/chucknorris/joke/ - Retorna uma piada aleatória do Chuck Norris.
