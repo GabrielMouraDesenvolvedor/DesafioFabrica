@@ -1,24 +1,36 @@
 Instalação:
 
 Clonar o Repositório:
+
 git clone https://github.com/GabrielMouraDesenvolvedor/DesafioFabrica.git
+
 cd DesafioFabrica
 
 Criar e Ativas a VENV (Ambiente Virtual):
+
 python -m venv venv
+
 venv\Scripts\activate  # No Windows
+
 source venv/bin/activate  # No macOS/Linux
 
+
 Instale as Dependências:
+
 pip install -r requirements.txt
 
+
 Configure as Migrações do BD ( Banco de Dados):
+
 python manage.py migrate
 
+
 Crie um SuperUsuário (Opcional):
+
 python manage.py createsuperuser
 
 Inicie o Servidor de Desenvolvimento:
+
 python manage.py runserver
 
 
